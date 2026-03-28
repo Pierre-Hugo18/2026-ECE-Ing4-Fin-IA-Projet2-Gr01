@@ -1,5 +1,5 @@
-"""evaluation package — métriques de performance et comparaison scientifique."""
+"""evaluation package — Métriques et comparaison scientifique des modèles."""
 
-from evaluation.metrics import ModelComparator, PerformanceReport, RegimeMetrics
+from evaluation.comparator import ModelComparator
 
-__all__ = ["ModelComparator", "PerformanceReport", "RegimeMetrics"]
+__all__ = ["ModelComparator"]
