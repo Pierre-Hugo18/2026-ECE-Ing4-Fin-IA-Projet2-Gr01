@@ -244,11 +244,6 @@ Technologies utilisées
 •	matplotlib 
 •	joblib 
 ________________________________________
-Auteurs
-•	[Nom 1] 
-•	[Nom 2] 
-•	[Nom 3] 
-________________________________________
 Références
 •	Kaggle Credit Card Fraud Detection Dataset 
 •	scikit-learn documentation 
