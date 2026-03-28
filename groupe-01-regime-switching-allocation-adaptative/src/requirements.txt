@@ -1,0 +1,56 @@
+# ============================================================
+# market_regime - Détection de Régimes VAE-HMM
+# requirements.txt
+# Python >= 3.10
+# ============================================================
+
+# --- Data & Numerics ---
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+
+# --- Financial Data ---
+yfinance>=0.2.40
+pandas-datareader>=0.10.0
+
+# --- Deep Learning ---
+torch>=2.3.0
+torchvision>=0.18.0  # utilities only
+
+# --- Probabilistic Models ---
+hmmlearn>=0.3.2
+statsmodels>=0.14.2   # Markov-Switching (Hamilton)
+
+# --- Technical Analysis ---
+ta>=0.11.0            # Technical Analysis library
+
+# --- Backtesting ---
+vectorbt>=0.26.2
+
+# --- Machine Learning Utilities ---
+scikit-learn>=1.5.0
+
+# --- Plotting & Visualization ---
+matplotlib>=3.9.0
+seaborn>=0.13.2
+plotly>=5.22.0
+
+# --- Configuration & Utilities ---
+python-dotenv>=1.0.0
+pydantic>=2.7.0       # settings validation
+pydantic-settings>=2.2.0
+tqdm>=4.66.0
+loguru>=0.7.2
+
+# --- Development & Testing ---
+pytest>=8.2.0
+pytest-cov>=5.0.0
+black>=24.4.0
+isort>=5.13.2
+mypy>=1.10.0
+ruff>=0.4.5
+
+# --- Jupyter (exploration) ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
